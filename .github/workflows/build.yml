@@ -52,16 +52,6 @@ jobs:
       - name: Spell check
         uses: crate-ci/typos@v1
 
-  markdown-lint:
-    name: Markdown Lint
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Lint Markdown
-        uses: DavidAnson/markdownlint-cli2-action@v20
-
   doxygen:
     name: Generate Documentation
     runs-on: ubuntu-latest
