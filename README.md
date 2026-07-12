@@ -4,6 +4,8 @@ This project is an implementation of how a C preprocessor works internally.
 It takes a **.c** file as input and generates a processed **.i** file after handling things like macros, comments, and header files.
 This project is to understand what actually happens before a C program is compiled.
 
+![CI](https://github.com/jaidev-11/Custom_C-Preprocessor/actions/workflows/build.yml/badge.svg)
+
 ---------------------------------------------------------------------------------
 ## 💡 What This Program Do
 
